@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>The Happiest Restaurant On Earth!</title>
+
+    <link rel="stylesheet" href="styles.css" media="screen">
+
+    <script>
+      function blinker() {
+	      $('.blinking').fadeOut(100);
+	      $('.blinking').fadeIn(100);}
+      setInterval(blinker, 1000);
+    </script>
+
+  </head>
+  <body>
+   <div id="container">
+     <div id="header">
+<!-- Navigation bar -->
+      <nav>
+        <ul class="nav-links">
+          <li class="nav-link"><a href="#">Home</a></li>
+          <li class="nav-link"><a href="#">About</a></li>
+          <li class="nav-link"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+<!-- Main banner with title and blinking support text -->
+      <h1 id="main-title">T.H.R.O.E</h1>
+        <h2 id="main-title-support" class="blinking">The Happiest Restaurant On Earth</h2>
+     </div>
+<!-- A little more about our restaurant -->
+    <div id="body">
+    <h3 class="section-headers">Say what?!</h3>
+      <p>
+          Welcome to the happiest restaurant on Earth! What makes us the happiest restaurant on earth?
+          I'm glad you asked. No kids allowed, unless it's of the four-legged variety!!!
+      </p>
+<!-- Happy Hour scrolling marquee -->
+    <h3 class="section-headers" id="scrolling-text"><marquee behavior="scroll" direction="left">Happy Hour!!!</marquee></h3>
+      <p>
+        Our world famous happy hour will have you wanting to stay all day! And since you have your
+        best friend with you and you don't have to worry about having to run back to let him out, you'll
+        feel completely ok with it!
+      </p>
+<!--  <button class="button">If you bring children they will be given coffee and a free puppy. Click to see what this will mean for you!</button>
+    <div id="kid-div">
+      <img id ="kid" class="normal" src="http://www.clipartkid.com/images/19/child-sit-on-chair-colouring-pages-page-3-xNKb4Q-clipart.jpg" alt="happy-family">
+    </div> -->
+  </div>
+<!-- Footer -->
+  <div id="footer">
+      <footer></footer>
+  </div>
+
+  </div>
+  </body>
+</html>
